@@ -1,6 +1,6 @@
 
 size: 3
-powerProduction: 12
+powerProduction: 15
 consumes: {
 items: {
 items: [
