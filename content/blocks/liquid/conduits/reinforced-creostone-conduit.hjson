@@ -4,12 +4,11 @@ health: 320
 botColor: 38393f
 leaks: false
 liquidCapacity: 35
-liquidPressure: 1.03
+liquidPressure: 1.1
 health: 380
 researchCostMultiplier: 3
 underBullets: true
-envDisabled: 1
-
+buildVisibily: shown
 requirements: [
   creostone/2
   beryllium/1
