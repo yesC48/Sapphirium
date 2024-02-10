@@ -10,6 +10,7 @@ baseColor: f08dd5
 health: 2560
 category: defense
 group: walls
+conductivePower: true
 research: amethyst-wall
 consumes: {
 power: 0.8
