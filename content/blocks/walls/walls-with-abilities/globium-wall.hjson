@@ -4,11 +4,11 @@ shieldHealth: 40
 cooldownNormal: 1
 phaseRadiusBoost: 0
 phaseShieldBoost: 0
-
+sides: 4
+shieldRotation: 45
 category: defense
 absorbLasers: true
 group: walls
-
 requirements: [
 globium/12
 titanium/6
