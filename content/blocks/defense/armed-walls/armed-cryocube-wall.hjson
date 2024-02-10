@@ -18,7 +18,7 @@ size: 2
 shootSound: release
 shootEffect: shootLiquid
 group: walls
-
+conductivePower: true
 shootType: {
 width: 10
 height: 10
