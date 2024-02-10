@@ -15,6 +15,6 @@ titanium/6
 silicon/3
 ]
 research: {
-parent: plastanium-wall-large
+parent: plastanium-wall
 objectives: [snow-monolith]
 }
