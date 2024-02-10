@@ -1,7 +1,7 @@
 import json
 import urllib3
 
-url = "https://api.github.com/repos/3Snake3/Sapphirium/releases/latest"
+url = "https://api.github.com/repos/yesC48/Sapphirium/releases/latest"
 http = urllib3.PoolManager()
 release_raw = http.request("GET", url).data
 release = json.loads(release_raw)
