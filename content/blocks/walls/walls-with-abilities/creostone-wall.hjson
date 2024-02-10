@@ -8,6 +8,7 @@ consumes: {
 power: 0.5
 }
 group: walls
+conductivePower: true
 requirements: [
 creostone/8
 silicon/8
