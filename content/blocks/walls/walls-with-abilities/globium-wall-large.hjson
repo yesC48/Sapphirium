@@ -8,7 +8,6 @@ phaseShieldBoost: 0
 shieldSides: 4
 shieldRotation: 45
 group: walls
-conductivePower: true
 category: defense
 absorbLasers: true
 requirements: [
