@@ -5,13 +5,11 @@ tungsten/80
 silicon/80
 oxide/40
 ]
-
 category: effect
 size: 3
 range: 120
 baseColor: f08dd5
 squareSprite: false
-buildVisibility: debugOnly
 consumes: {
 power: 4
 items: {
@@ -21,7 +19,15 @@ silicon/2
 ]
 }
 }
-
-speedBoost: 2
+research: {
+parent: regen-projector
+objectives: [
+{
+type: SectorComplete
+preset: stronghold
+}
+]
+}
+speedBoost: 1.2
 useTime: 280
 hasBoost: false
