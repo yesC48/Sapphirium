@@ -17,6 +17,7 @@ consumes: {
 power: 3
 }
 group: walls
+conductivePower: true
 
 shootEffect: {
 type: WaveEffect
