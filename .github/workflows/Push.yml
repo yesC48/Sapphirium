@@ -26,5 +26,5 @@ jobs:
           git add .
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Json front-end update"
-            git push https://3Snake3:${{ secrets.SAPP_TOKEN }}@github.com/yesC48/Sapphirium
+            git push https://yesC48:${{ secrets.SAPP_TOKEN }}@github.com/yesC48/Sapphirium
           fi
