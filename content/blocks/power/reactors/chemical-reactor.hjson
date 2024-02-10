@@ -6,7 +6,7 @@ oxide/80
 silicon/70
 ]
 category: power
-powerProduction: 35
+powerProduction: 32
 
 drawer: {
 type: DrawMulti
@@ -38,7 +38,7 @@ color: ffe18f99
 generateEffect: none
 consumes: {
 liquids: {
-liquids: [nitrogen/0.05, arkycite/1]
+liquids: [nitrogen/0.05, arkycite/0.8]
 }
 }
 liquidCapacity: 120
