@@ -10,6 +10,7 @@ baseColor: f08dd5
 health: 640
 category: defense
 group: walls
+conductivePower: true
 research: tungsten-wall
 consumes: {
 power: 0.8
