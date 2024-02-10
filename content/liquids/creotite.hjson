@@ -3,6 +3,9 @@ viscosity: 0.7
 flammability: 0.95
 explosiveness: 1.15
 heatCapacity: 0.8
+temperature: 2
 color: ff9382
 lightColor: ffcac208
-research: ledonite-liquid
+research: slag
+incinerable: false
+effect: incandescence
