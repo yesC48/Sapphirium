@@ -1,7 +1,7 @@
 requirements: [
-sapphire/180
-tungsten/160
-silicon/80
+    sapphire/180
+    tungsten/160
+    silicon/80
 ]
 category: effect
 group: projectors
@@ -10,11 +10,19 @@ droneType: energy-sphere
 size: 3
 itemCapacity: 25
 consumes: {
-power: 5
-items: {
-items: [
-sapphire/25
-]
+    power: 5
+    items: {
+        items: [
+        sapphire/25
+        ]
+    }
 }
+research: {
+    parent: regen-projector
+    objectives: [melting-projector,
+    {
+        type: SectorComplete
+        preset: crevice
+    }
+    ]
 }
-buildVisibility: debugOnly
