@@ -17,7 +17,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd ../
-          git clone --depth 1 --single-branch --branch back-end https://github.com/yesC48/Sapphirium.git BackEndBranch
+          git clone --depth 1 --single-branch --branch master https://github.com/yesC48/Sapphirium.git BackEndBranch
           python Sapphirium/.github/workflows/upload/front2back.py
           cd BackEndBranch
           git config --global user.email "firstcreator48@gmail.com"
