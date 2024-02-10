@@ -7,7 +7,7 @@ jobs:
     if: |
       (contains(github.event.head_commit.message,'[release]') ||
       contains(github.event.head_commit.message,'[update]')) &&
-      github.repository == '3Snake3/Sapphirium'
+      github.repository == 'yesC48/Sapphirium'
     steps:
       - uses: actions/checkout@v2
 
