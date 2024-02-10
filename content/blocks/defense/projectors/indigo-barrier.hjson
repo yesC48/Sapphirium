@@ -5,6 +5,8 @@ thorium/95
 silicon/245
 ]
 category: effect
+sides: 8
+shieldRotation: 45
 size: 3
 phaseRadiusBoost: 70
 radius: 250
