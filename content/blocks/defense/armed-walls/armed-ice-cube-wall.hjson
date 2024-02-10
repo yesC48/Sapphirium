@@ -20,6 +20,7 @@ shots: 2
 shotDelay: 6
 }
 group: walls
+conductivePower: true
 consumes: {
 power: 0.4
 }
