@@ -7,7 +7,7 @@ shootSound: shootBig
 shootCone: 30
 range: 70
 group: walls
-
+connectedPower: false
 shootType: {
 type: BasicBulletType
 width: 10
