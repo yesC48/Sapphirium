@@ -14,7 +14,7 @@ size: 2
 shootSound: flame
 baseExplosiveness: 0.95
 group: walls
-
+conductivePower: true
 shootType: {
 type: BasicBulletType
 ammoMultiplier: 4
