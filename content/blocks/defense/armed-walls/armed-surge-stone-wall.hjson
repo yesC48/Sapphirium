@@ -14,6 +14,7 @@ shootEffect: sparkShoot
 shootSound: spark
 smokeEffect: none
 group: walls
+conductivePower: true
 range: 130
 shootType: {
 width: 10
